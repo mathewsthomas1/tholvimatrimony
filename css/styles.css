@@ -1,0 +1,118 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#title {
+    background-color: rgb(197, 91, 91);
+    color: #fff;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-fluid{
+    padding: 20% 5%; 
+    padding-top: 5%;
+} 
+.nav-item{
+padding: 0% 18px ;
+padding-bottom: 30%;
+}
+.navbar-brand{
+    padding: 0% 18px ;
+    padding-bottom: 5%;
+}
+.title-image{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+#features{
+    padding: 7% 15%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: #fff;
+position: relative;
+z-index: 1;
+
+}
+.features-box{
+ text-align: center;
+ padding: 5%;   
+}
+p{
+color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+color: rgb(197, 91, 91) ;
+}
+#testimonials{
+    text-align: center;
+    background-color: rgb(197, 91, 91) ;
+color:#FFF;
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.testimonials-image{
+width:8%;
+border-radius: 100%;
+margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: rgb(197, 91, 91) ;   
+padding-bottom: 5%;
+text-align: center;
+}
+.press-image{
+    width: 9%;
+    margin: 20px 60px ;
+}
+.card{
+    text-align: center;
+    margin: 10%;
+    margin-bottom: 10%;
+}
+h2{
+    text-align: center;
+    padding-top: 11%;
+}
+p{
+    text-align: center;
+}
+#cta{
+    background-color:  rgb(197, 91, 91);
+    text-align: center;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ padding: 20%; 
+ padding-top: 10%;  
+}
+h3{
+    padding: 5%;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.foot{
+    margin: 1%;
+}
+@media(max-width:1028px)
+{
+ #title{
+    text-align: center;
+ }   
+.title-image
+{
+    position:static;
+    transform: rotate(0);
+padding-top: 10%;
+}    
+}
